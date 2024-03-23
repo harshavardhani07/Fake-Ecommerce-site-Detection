@@ -2,6 +2,7 @@ import numpy as np
 from collections import Counter
 
 class Node():
+    #create node class
     def __init_(self, feature=None, threshold = None, left=None, right=None,*,value=None):
         self.feature = feature
         self.threshold = threshold 
